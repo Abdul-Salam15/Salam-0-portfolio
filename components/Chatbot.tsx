@@ -119,7 +119,7 @@ export default function Chatbot() {
                 </a>
                 <span className="text-[var(--text-secondary)]/30">|</span>
                 <a
-                  href="https://www.dropbox.com/scl/fi/8pwzxju1g5a7z6k6iskgd/OWOADE_HABEEB_RESUME-4.pdf?rlkey=kqagoji9fa7yafe4v0tj5l4oe&st=iptearno&dl=0"
+                  href="/resume.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-2 md:px-3 py-1 text-xs md:text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-primary)]/20 transition-all duration-300 rounded-lg"
@@ -142,14 +142,14 @@ export default function Chatbot() {
                 </a>
                 <span className="text-[var(--text-secondary)]/30">|</span>
                 <a
-                  href="#ask-habeeb"
+                  href="#ask-salam"
                   onClick={(e) => {
                     e.preventDefault()
                     // Already in chatbot, do nothing or scroll to top
                   }}
                   className="px-2 md:px-3 py-1 text-xs md:text-sm font-medium text-[var(--text-primary)] bg-[var(--bg-primary)]/30 transition-all duration-300 rounded-lg"
                 >
-                  Ask Habeeb AI
+                  Ask Salam AI
                 </a>
                 <span className="text-[var(--text-secondary)]/30 mx-1 md:mx-2">|</span>
                 <a
@@ -289,7 +289,7 @@ export default function Chatbot() {
 
             {/* Footer Text */}
             <p className="text-center text-xs text-[var(--text-secondary)] mt-6">
-              By messaging Ask Habeeb, an AI chatbot, you agree to our{' '}
+              By messaging Ask Salam, an AI chatbot, you agree to our{' '}
               <Link href="/terms" className="underline hover:text-[var(--text-primary)]">
                 Terms
               </Link>

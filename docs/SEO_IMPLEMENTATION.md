@@ -1,7 +1,7 @@
 # SEO Implementation Guide 🚀
 
 ## Overview
-This document outlines the comprehensive SEO optimizations implemented to achieve a **10/10 SEO score** for Habeeb Owoade's portfolio.
+This document outlines the comprehensive SEO optimizations implemented to achieve a **10/10 SEO score** for Abdul-Salam Adebayo's portfolio.
 
 ---
 
@@ -32,9 +32,8 @@ Implemented multiple Schema.org structured data types:
 ```json
 {
   "@type": "Person",
-  "name": "Habeeb Owoade",
+  "name": "Abdul-Salam Adebayo",
   "jobTitle": "Full Stack Software Engineer",
-  "alumniOf": "Bowen University",
   "knowsAbout": ["JavaScript", "React", "AI Development", ...]
 }
 ```
@@ -43,7 +42,7 @@ Implemented multiple Schema.org structured data types:
 ```json
 {
   "@type": "WebSite",
-  "name": "Habeeb Owoade",
+  "name": "Abdul-Salam Adebayo",
   "description": "Full-stack software engineer...",
   "inLanguage": "en-US"
 }
@@ -68,7 +67,7 @@ Implemented multiple Schema.org structured data types:
 - Homepage: Priority 1.0, Daily updates
 - Portfolio: Priority 0.9, Weekly updates
 - Projects: Priority 0.9, Weekly updates
-- Ask Habeeb: Priority 0.8, Monthly updates
+- Ask Salam: Priority 0.8, Monthly updates
 ```
 
 **Features:**
@@ -81,7 +80,7 @@ Implemented multiple Schema.org structured data types:
 ```
 Allow: /
 Disallow: /api/, /_next/, /private/
-Sitemap: https://habeebowoade.com/sitemap.xml
+Sitemap: https://salam-0-portfolio.vercel.app/sitemap.xml
 ```
 
 **Bot-specific rules:**
@@ -115,7 +114,7 @@ Created `/public/manifest.json`:
 - Technology-specific keywords
 - Breadcrumb navigation
 
-#### Ask Habeeb Page (`/ask-habeeb`)
+#### Ask Salam Page (`/ask-salam`)
 - AI assistant focus
 - Chatbot-specific SEO
 - Interactive features highlight
@@ -236,7 +235,7 @@ themeColor: [light/dark modes]
 ## 🔍 How to Verify
 
 ### 1. Google Search Console
-- Submit sitemap: `https://habeebowoade.com/sitemap.xml`
+- Submit sitemap: `https://salam-0-portfolio.vercel.app/sitemap.xml`
 - Monitor indexing status
 - Check for structured data errors
 
@@ -263,7 +262,7 @@ https://validator.schema.org/
 ### 4. Lighthouse Audit
 ```bash
 npm install -g lighthouse
-lighthouse https://habeebowoade.com --view
+lighthouse https://salam-0-portfolio.vercel.app --view
 ```
 
 Expected scores:

@@ -13,7 +13,7 @@
 - ✅ `app/not-found.tsx` - SEO-optimized 404 page
 - ✅ `app/portfolio/page.tsx` - Updated with full metadata
 - ✅ `app/projects/metadata.ts` - Projects page metadata
-- ✅ `app/ask-habeeb/metadata.ts` - Chatbot page metadata
+- ✅ `app/ask-salam/metadata.ts` - Chatbot page metadata
 - ✅ `public/manifest.json` - PWA manifest
 - ✅ `public/browserconfig.xml` - Microsoft tile configuration
 - ✅ `docs/SEO_IMPLEMENTATION.md` - Complete SEO documentation
@@ -61,7 +61,7 @@
 - ✅ **Home (/)** - AI chatbot focus
 - ✅ **Portfolio (/portfolio)** - Main portfolio
 - ✅ **Projects (/projects)** - All projects listing
-- ✅ **Ask Habeeb (/ask-habeeb)** - AI assistant
+- ✅ **Ask Salam (/ask-salam)** - AI assistant
 - ✅ **404 (/not-found)** - Error page (noIndex)
 
 ---
@@ -72,7 +72,7 @@
 - ✅ Homepage (Priority: 1.0)
 - ✅ Portfolio page (Priority: 0.9)
 - ✅ Projects page (Priority: 0.9)
-- ✅ Ask Habeeb page (Priority: 0.8)
+- ✅ Ask Salam page (Priority: 0.8)
 - ✅ Dynamic lastModified dates
 - ✅ Proper change frequencies
 
@@ -94,7 +94,7 @@
 - ✅ Theme colors (light/dark)
 - ✅ Display mode (standalone)
 - ✅ Start URL
-- ✅ Shortcuts (Portfolio, Projects, Ask Habeeb)
+- ✅ Shortcuts (Portfolio, Projects, Ask Salam)
 - ✅ Categories
 - ✅ Language & direction
 
@@ -175,7 +175,7 @@
 - ✅ twitter:title
 - ✅ twitter:description
 - ✅ twitter:image
-- ✅ twitter:creator (@Drealtemiteee_)
+- ✅ twitter:creator (@salamtweets_)
 - ✅ twitter:site
 
 ---
@@ -199,19 +199,19 @@ http://localhost:3000/manifest.json
 #### Rich Results Test
 ```
 https://search.google.com/test/rich-results
-Test URL: https://habeebowoade.com
+Test URL: https://salam-0-portfolio.vercel.app
 ```
 
 #### Mobile-Friendly Test
 ```
 https://search.google.com/test/mobile-friendly
-Test URL: https://habeebowoade.com
+Test URL: https://salam-0-portfolio.vercel.app
 ```
 
 #### PageSpeed Insights
 ```
 https://pagespeed.web.dev/
-Test URL: https://habeebowoade.com
+Test URL: https://salam-0-portfolio.vercel.app
 Expected: 90+ on all metrics
 ```
 
@@ -224,19 +224,19 @@ Paste your page source
 #### Twitter Card Validator
 ```
 https://cards-dev.twitter.com/validator
-Test URL: https://habeebowoade.com
+Test URL: https://salam-0-portfolio.vercel.app
 ```
 
 #### Facebook Debugger
 ```
 https://developers.facebook.com/tools/debug/
-Test URL: https://habeebowoade.com
+Test URL: https://salam-0-portfolio.vercel.app
 ```
 
 ### 3. Lighthouse Audit
 ```bash
 npm install -g lighthouse
-lighthouse https://habeebowoade.com --view
+lighthouse https://salam-0-portfolio.vercel.app --view
 ```
 
 **Expected Scores:**
@@ -279,7 +279,7 @@ lighthouse https://habeebowoade.com --view
 
 ### Before Deploying
 - [ ] Update `lib/seo.ts` with your actual domain
-- [ ] Replace `https://habeebowoade.com` with your domain
+- [ ] Replace `https://salam-0-portfolio.vercel.app` with your domain
 - [ ] Add GROQ_API_KEY to environment variables
 - [ ] Test all pages locally
 - [ ] Run `npm run build` without errors

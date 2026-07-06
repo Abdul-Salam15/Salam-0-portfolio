@@ -2,7 +2,7 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square150x150logo src="/images/habeebportfolio.jpg"/>
+      <square150x150logo src="/images/profile-placeholder.svg"/>
       <TileColor>#000000</TileColor>
     </tile>
   </msapplication>

@@ -2,9 +2,9 @@ import { Metadata } from 'next'
 import { generateMetadata as generateSEOMetadata } from '@/lib/seo'
 
 export const metadata: Metadata = generateSEOMetadata({
-  title: 'Ask Habeeb - AI Assistant',
+  title: 'Ask Salam - AI Assistant',
   description: 'Chat with my AI assistant powered by LLaMA and RAG technology. Ask questions about my experience, skills, projects, and technical expertise. Get instant answers about my software engineering journey.',
-  url: '/ask-habeeb',
+  url: '/ask-salam',
   keywords: [
     'AI chatbot',
     'portfolio assistant',

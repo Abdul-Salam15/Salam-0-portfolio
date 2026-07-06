@@ -41,11 +41,11 @@ export async function POST(request: NextRequest) {
     // RAG: Retrieve relevant context based on user query
     const relevantContext = retrieveRelevantChunks(message, 3)
 
-    // Detect if user is using third person (he/his/Habeeb) or second person (you/your)
-    const isThirdPerson = /\b(he|his|him|habeeb|habeeb'?s)\b/i.test(message)
+    // Detect if user is using third person (he/his/Abdul-Salam) or second person (you/your)
+    const isThirdPerson = /\b(he|his|him|salam|abdul-?salam|salam'?s)\b/i.test(message)
 
     // Dynamic system prompt with retrieved context (only relevant chunks - saves tokens!)
-    const systemPrompt = `You are Habeeb's AI assistant. Answer questions about Habeeb Owoade using ONLY the context below. Be conversational, detailed, and engaging.
+    const systemPrompt = `You are Abdul-Salam's AI assistant. Answer questions about Abdul-Salam Adebayo using ONLY the context below. Be conversational, detailed, and engaging.
 
 CONTEXT:
 ${relevantContext}
@@ -63,9 +63,9 @@ CRITICAL RULES:
 - When mentioning "view all projects" or "see his projects", link to: [view his projects](/portfolio#projects)
 
 PERSPECTIVE RULES:
-${isThirdPerson 
-  ? '- User is asking about Habeeb in THIRD PERSON - respond using "he/his/him/Habeeb"\n- Example: "He built...", "His experience includes...", "Habeeb has worked on..."' 
-  : '- User is addressing Habeeb directly in SECOND PERSON - respond using "I/my/me" as if you ARE Habeeb\n- Example: "I built...", "My experience includes...", "I\'ve worked on..."'
+${isThirdPerson
+  ? '- User is asking about Abdul-Salam in THIRD PERSON - respond using "he/his/him/Abdul-Salam"\n- Example: "He built...", "His experience includes...", "Abdul-Salam has worked on..."'
+  : '- User is addressing Abdul-Salam directly in SECOND PERSON - respond using "I/my/me" as if you ARE Abdul-Salam\n- Example: "I built...", "My experience includes...", "I\'ve worked on..."'
 }
 
 RESPONSE STYLE:

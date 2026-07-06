@@ -125,7 +125,7 @@ export default function About() {
           }}
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] mb-4">
-            MEET HABEEB
+            MEET ABDUL-SALAM
           </h2>
           <div className="w-32 h-0.5 bg-[var(--text-primary)] mx-auto"></div>
         </div>
@@ -147,8 +147,8 @@ export default function About() {
               {/* Main Image with Glitch Effect */}
               <div className="relative w-full h-[400px] md:h-[600px] rounded-lg md:rounded-xl overflow-hidden border border-[var(--border)]/40 shadow-lg glitch-image pixel-glitch">
                 <Image
-                  src="/images/habeebportfolioabout2.jpg"
-                  alt="Habeeb Owoade"
+                  src="/images/profile-placeholder.svg"
+                  alt="Abdul-Salam Adebayo"
                   fill
                   className="object-cover"
                   priority
@@ -171,19 +171,15 @@ export default function About() {
           >
             <div className="space-y-6">
               <p className="text-base md:text-lg lg:text-xl text-[var(--text-secondary)] leading-relaxed">
-                I&apos;m Habeeb, a software engineer whose journey into coding began at{' '}
+                I&apos;m Abdul-Salam, a software engineer based in{' '}
                 <span className="text-[var(--text-primary)] font-semibold underline decoration-2 underline-offset-4">
-                  17
+                  Lagos, Nigeria
                 </span>
-                . What started as curiosity quickly grew into a long-term commitment to building and understanding software. During high school, I spent my time learning through online resources, participating in coding challenges, and learning from mentors who helped shape how I think about problem-solving.
+                . [YOUR_BIO_PARAGRAPH_1: Tell your story here — how you got into coding, what drives you, and what you love building.]
               </p>
-              
-              {/* <p className="text-base md:text-lg lg:text-xl text-[var(--text-secondary)] leading-relaxed">
-                Over the years, I've worked on remote projects for agencies, consulted for startups, and collaborated with talented teams to build digital products for both businesses and everyday users. These experiences have exposed me to real-world development workflows, collaboration, and the importance of writing code that is both reliable and maintainable.
-              </p> */}
 
               <p className="text-base md:text-lg lg:text-xl text-[var(--text-secondary)] leading-relaxed">
-                I completed my SIWES internship at NSIA Insurance Limited Nigeria, where I gained hands-on industry experience and a clearer understanding of how software operates within large organizations. I&apos;m currently in my final year studying Software Engineering, with multiple completed projects and a strong drive to keep learning, building, and refining my craft.
+                [YOUR_BIO_PARAGRAPH_2: Add a second paragraph about your experience, education, or what you&apos;re currently working on and learning.]
               </p>
             </div>
 
@@ -211,7 +207,8 @@ export default function About() {
                     Outside of coding
                   </h3>
                   <p className="text-base md:text-lg text-[var(--text-secondary)] leading-relaxed">
-                  When I&apos;m not coding, I&apos;m usually playing story-driven video games. The way those games handle complex narratives and problem-solving always finds its way back into how I think about building software.                  </p>
+                  [YOUR_HOBBIES: Share what you do outside of coding — hobbies, interests, and how they influence the way you build software.]
+                  </p>
                 </div>
               </div>
             </div>

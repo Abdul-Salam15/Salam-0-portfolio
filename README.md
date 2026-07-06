@@ -1,10 +1,10 @@
-# Habeeb Portfolio
+# Abdul-Salam Adebayo — Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, featuring an AI-powered chatbot assistant.
 
 ## ✨ Key Features
 
-- 🤖 **AI Chatbot Assistant** - "Ask Habeeb" powered by LLaMA & RAG technology
+- 🤖 **AI Chatbot Assistant** - "Ask Salam" powered by LLaMA & RAG technology
 - 🚀 Built with Next.js 14 and App Router
 - 💻 TypeScript for type safety
 - 🎨 Tailwind CSS with custom theming
@@ -71,7 +71,7 @@ The AI chatbot will be available at the homepage, and the full portfolio at `/po
 │   ├── api/
 │   │   └── chat/
 │   │       └── route.ts         # AI chatbot API endpoint
-│   ├── ask-habeeb/
+│   ├── ask-salam/
 │   │   └── page.tsx            # AI chatbot page
 │   ├── portfolio/
 │   │   └── page.tsx            # Main portfolio page
@@ -222,7 +222,7 @@ Compatible with any Next.js hosting:
 
 ## 🤖 AI Chatbot Features
 
-The "Ask Habeeb" chatbot uses:
+The "Ask Salam" chatbot uses:
 - **LLaMA 3.3-70B** model via Groq
 - **RAG (Retrieval-Augmented Generation)** for accurate responses
 - **Rate limiting** to prevent abuse
@@ -270,10 +270,10 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📧 Contact
 
-- **Email**: owoadehabeeb04@gmail.com
-- **LinkedIn**: [linkedin.com/in/owoade-habeeb](https://linkedin.com/in/owoade-habeeb)
-- **GitHub**: [github.com/owoadehabeeb04](https://github.com/owoadehabeeb04)
-- **Twitter**: [@Drealtemiteee_](https://twitter.com/Drealtemiteee_)
+- **Email**: abdulsalamadebayo0410@gmail.com
+- **LinkedIn**: [www.linkedin.com/in/YOUR_LINKEDIN_HANDLE](https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE)
+- **GitHub**: [github.com/Abdul-Salam15](https://github.com/Abdul-Salam15)
+- **Twitter**: [@salamtweets_](https://twitter.com/salamtweets_)
 
 ## ⭐ Show Your Support
 
@@ -291,5 +291,5 @@ Give a ⭐️ if you like this project!
 
 ---
 
-**Built with ❤️ by Habeeb Owoade**
+**Built with ❤️ by Abdul-Salam Adebayo**
 

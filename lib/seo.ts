@@ -1,19 +1,19 @@
 import { Metadata } from 'next'
 
 export const siteConfig = {
-  name: 'Habeeb Owoade',
-  title: 'Habeeb Owoade - Full Stack Software Engineer | React, Next.js, TypeScript Expert',
-  description: 'Full-stack software engineer specializing in React, Next.js, TypeScript, Node.js, and AI integration. Top 1% student at Bowen University (CGPA 4.65/5.00). Building scalable web applications with modern technologies.',
-  url: 'https://habeeb-dev-portfolio.vercel.app',
-  ogImage: 'https://habeeb-dev-portfolio.vercel.app/images/habeebportfolio.jpg',
+  name: 'Abdul-Salam Adebayo',
+  title: 'Abdul-Salam Adebayo - Software Engineer | React, Next.js, TypeScript',
+  description: 'Software engineer based in Lagos, Nigeria, specializing in React, Next.js, TypeScript, Node.js, and AI integration. Building scalable web applications with modern technologies.',
+  url: 'https://salam-0-portfolio.vercel.app',
+  ogImage: 'https://salam-0-portfolio.vercel.app/images/profile-placeholder.svg',
   links: {
-    twitter: 'https://twitter.com/Drealtemiteee_',
-    github: 'https://github.com/owoadehabeeb04',
-    linkedin: 'https://linkedin.com/in/owoade-habeeb',
-    email: 'owoadehabeeb04@gmail.com',
+    twitter: 'https://twitter.com/salamtweets_',
+    github: 'https://github.com/Abdul-Salam15',
+    linkedin: 'https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE',
+    email: 'abdulsalamadebayo0410@gmail.com',
   },
   keywords: [
-    'Habeeb Owoade',
+    'Abdul-Salam Adebayo',
     'Full Stack Developer',
     'Software Engineer',
     'React Developer',
@@ -24,7 +24,7 @@ export const siteConfig = {
     'Backend Developer',
     'AI Engineer',
     'Web Developer Nigeria',
-    'Bowen University',
+    'Machine Learning',
     'JavaScript Expert',
     'MongoDB',
     'PostgreSQL',
@@ -37,9 +37,9 @@ export const siteConfig = {
     'Web Application Development',
   ],
   author: {
-    name: 'Habeeb Owoade',
-    email: 'owoadehabeeb04@gmail.com',
-    url: 'https://habeeb-dev-portfolio.vercel.app',
+    name: 'Abdul-Salam Adebayo',
+    email: 'abdulsalamadebayo0410@gmail.com',
+    url: 'https://salam-0-portfolio.vercel.app',
   },
 }
 
@@ -101,8 +101,8 @@ export function generateMetadata({
       title: metaTitle,
       description: metaDescription,
       images: [metaImage],
-      creator: '@Drealtemiteee_',
-      site: '@Drealtemiteee_',
+      creator: '@salamtweets_',
+      site: '@salamtweets_',
     },
     robots: {
       index: !noIndex,
@@ -117,13 +117,12 @@ export function generateMetadata({
     },
     icons: {
       icon: [
-        { url: '/favicon.jpg', sizes: '32x32', type: 'image/jpeg' },
-        { url: '/icon.jpg', sizes: '192x192', type: 'image/jpeg' },
+        { url: '/favicon.svg', type: 'image/svg+xml' },
       ],
       apple: [
-        { url: '/images/habeebportfolio.jpg', sizes: '180x180', type: 'image/jpeg' },
+        { url: '/images/profile-placeholder.svg', type: 'image/svg+xml' },
       ],
-      shortcut: '/favicon.jpg',
+      shortcut: '/favicon.svg',
     },
     manifest: '/manifest.json',
   }
@@ -133,20 +132,15 @@ export function generateMetadata({
 export const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Habeeb Owoade',
-  alternateName: 'Owoade Habeeb Temitope',
+  name: 'Abdul-Salam Adebayo',
+  alternateName: 'Abdul-Salam',
   url: siteConfig.url,
   image: siteConfig.ogImage,
   email: siteConfig.links.email,
-  jobTitle: 'Full Stack Software Engineer',
+  jobTitle: 'Software Engineer',
   worksFor: {
     '@type': 'Organization',
     name: 'Freelance',
-  },
-  alumniOf: {
-    '@type': 'Organization',
-    name: 'Bowen University',
-    sameAs: 'https://bowen.edu.ng',
   },
   knowsAbout: [
     'JavaScript',
@@ -167,9 +161,9 @@ export const personSchema = {
   ],
   address: {
     '@type': 'PostalAddress',
+    addressLocality: 'Lagos',
     addressCountry: 'Nigeria',
   },
-  telephone: '+234-913-649-7992',
 }
 
 export const websiteSchema = {

@@ -46,7 +46,7 @@ export const useChatStore = create<ChatStore>()(
         }),
     }),
     {
-      name: 'habeeb-chat-storage',
+      name: 'salam-chat-storage',
       storage: createJSONStorage(() => localStorage),
       // Serialize dates properly
       partialize: (state) => ({ messages: state.messages }),

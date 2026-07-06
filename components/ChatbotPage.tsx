@@ -551,7 +551,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                 <span className="font-medium">Contact</span>
               </Link>
 
-              {/* Ask Habeeb Link (Current Page) */}
+              {/* Ask Salam Link (Current Page) */}
               <Link
                 href="/"
                 onClick={() => setShowMobileMenu(false)}
@@ -560,7 +560,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                 </svg>
-                <span className="font-medium">Ask Habeeb AI</span>
+                <span className="font-medium">Ask Salam AI</span>
               </Link>
             </nav>
           </div>
@@ -606,8 +606,8 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
               <div className="absolute inset-0 border-2 sm:border-4 border-[var(--border)] rounded-full animate-pulse-slow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-2 sm:border-4 border-[var(--border)] shadow-2xl">
                 <Image
-                  src="/images/habeebportfolio.jpg"
-                  alt="Habeeb Owoade"
+                  src="/images/profile-placeholder.svg"
+                  alt="Abdul-Salam Adebayo"
                   fill
                   className="object-cover object-[center_0%]"
                   priority
@@ -616,10 +616,10 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
             </div>
             
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[var(--text-primary)] text-center mb-3">
-              👋 Hi! I'm Habeeb's AI Assistant
+              👋 Hi! I'm Abdul-Salam's AI Assistant
             </h2>
             <p className="text-sm sm:text-base text-[var(--text-secondary)] text-center max-w-2xl">
-              Ask me about Habeeb's projects, skills, experience, or contact information. 
+              Ask me about Abdul-Salam's projects, skills, experience, or contact information.
               <br className="hidden sm:block" />
               Try: "Show me your projects" or "What technologies do you work with?"
             </p>

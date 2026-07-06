@@ -15,7 +15,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://github.com/owoadehabeeb04"
+            href="https://github.com/Abdul-Salam15"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
@@ -26,7 +26,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/owoade-habeeb-temitope-a747601b0/"
+            href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
@@ -37,7 +37,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://x.com/Drealtemiteee_"
+            href="https://x.com/salamtweets_"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
@@ -49,7 +49,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-center mt-8 text-sm text-[var(--text-secondary)]">
-          © {new Date().getFullYear()} Habeeb O. All rights reserved.
+          © {new Date().getFullYear()} Abdul-Salam Adebayo. All rights reserved.
         </div>
       </div>
     </footer>

@@ -28,12 +28,12 @@ Create a `.env.local` file in the root directory:
 
 ```bash
 # Required for AI Chatbot
-GROQ_API_KEY=your_groq_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-To get a GROQ API key:
-1. Visit [console.groq.com](https://console.groq.com)
-2. Sign up for a free account
+To get an OpenAI API key:
+1. Visit [platform.openai.com](https://platform.openai.com/api-keys)
+2. Sign up or log in
 3. Generate an API key
 
 ### Installation
@@ -209,7 +209,7 @@ lighthouse http://localhost:3000 --view
 1. Push your code to GitHub
 2. Import project to Vercel
 3. Add environment variables:
-   - `GROQ_API_KEY`
+   - `OPENAI_API_KEY`
 4. Deploy!
 
 ### Other Platforms
@@ -223,7 +223,7 @@ Compatible with any Next.js hosting:
 ## 🤖 AI Chatbot Features
 
 The "Ask Salam" chatbot uses:
-- **LLaMA 3.3-70B** model via Groq
+- **GPT-4o mini** model via OpenAI
 - **RAG (Retrieval-Augmented Generation)** for accurate responses
 - **Rate limiting** to prevent abuse
 - **Streaming responses** for better UX
@@ -249,7 +249,7 @@ The "Ask Salam" chatbot uses:
 - TanStack Query (server state)
 
 **AI/Backend:**
-- Groq SDK
+- OpenAI SDK
 - LangChain
 - Google Generative AI
 - Custom RAG implementation
@@ -286,7 +286,7 @@ Give a ⭐️ if you like this project!
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs)
-- [Groq AI Documentation](https://console.groq.com/docs)
+- [OpenAI API Documentation](https://platform.openai.com/docs)
 - [SEO Best Practices](https://developers.google.com/search/docs)
 
 ---

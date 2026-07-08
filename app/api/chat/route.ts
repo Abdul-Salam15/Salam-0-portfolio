@@ -1,6 +1,6 @@
-import Groq from 'groq-sdk'
+import OpenAI from 'openai'
 import { NextRequest } from 'next/server'
-import { geminiRateLimiter } from '@/lib/rate-limiter'
+import { chatRateLimiter } from '@/lib/rate-limiter'
 import { retrieveRelevantChunks } from '@/lib/portfolio-data'
 
 export async function POST(request: NextRequest) {
@@ -8,34 +8,34 @@ export async function POST(request: NextRequest) {
     const { message, conversationHistory = [] } = await request.json()
 
     if (!message) {
-      return new Response(JSON.stringify({ error: 'Message is required' }), { 
+      return new Response(JSON.stringify({ error: 'Message is required' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' }
       })
     }
 
-    if (!process.env.GROQ_API_KEY) {
-      return new Response(JSON.stringify({ error: 'GROQ_API_KEY is not configured' }), { 
+    if (!process.env.OPENAI_API_KEY) {
+      return new Response(JSON.stringify({ error: 'OPENAI_API_KEY is not configured' }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' }
       })
     }
 
     // Check rate limit before making request
-    if (!geminiRateLimiter.canMakeRequest()) {
-      const waitTime = geminiRateLimiter.getWaitTime()
-      return new Response(JSON.stringify({ 
+    if (!chatRateLimiter.canMakeRequest()) {
+      const waitTime = chatRateLimiter.getWaitTime()
+      return new Response(JSON.stringify({
         error: `⏳ Please wait ${waitTime} seconds before sending another message.`,
         details: 'Rate limit protection active'
-      }), { 
+      }), {
         status: 429,
         headers: { 'Content-Type': 'application/json' }
       })
     }
 
-    // Initialize Groq client
-    const groq = new Groq({
-      apiKey: process.env.GROQ_API_KEY,
+    // Initialize OpenAI client
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
     })
 
     // RAG: Retrieve relevant context based on user query
@@ -105,8 +105,8 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
       },
     ]
 
-    const stream = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile', 
+    const stream = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
       messages,
       temperature: 0.7,
       max_tokens: 800, // Increased for detailed responses
@@ -215,7 +215,7 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
       },
     })
   } catch (error: any) {
-    console.error('Error calling Groq API:', error)
+    console.error('Error calling OpenAI API:', error)
     
     // Handle quota exceeded errors with helpful message
     if (error.status === 429 || error.message?.includes('quota')) {

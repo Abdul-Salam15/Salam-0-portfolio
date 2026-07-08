@@ -156,7 +156,7 @@ Or search for:
 ## ✅ Pre-Deploy Checklist
 
 - [ ] Updated domain in `lib/seo.ts`
-- [ ] Added GROQ_API_KEY to env
+- [ ] Added OPENAI_API_KEY to env
 - [ ] Tested `npm run build` (no errors)
 - [ ] All images in `public/images/`
 - [ ] Reviewed metadata in all pages

@@ -280,7 +280,7 @@ lighthouse https://salam-0-portfolio.vercel.app --view
 ### Before Deploying
 - [ ] Update `lib/seo.ts` with your actual domain
 - [ ] Replace `https://salam-0-portfolio.vercel.app` with your domain
-- [ ] Add GROQ_API_KEY to environment variables
+- [ ] Add OPENAI_API_KEY to environment variables
 - [ ] Test all pages locally
 - [ ] Run `npm run build` without errors
 

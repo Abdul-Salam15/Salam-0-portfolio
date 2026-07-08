@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
 import Image from 'next/image'
 
-const roles = ['A Software Engineer', 'Abdul-Salam Adebayo']
+const roles = ['An AI Engineer', 'Abdul-Salam Adebayo']
 
 export default function Hero() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0)
@@ -89,7 +89,7 @@ export default function Hero() {
           </div>
           
           <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] mb-6 md:mb-8 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-            I&apos;m a full-stack developer who builds scalable web applications and robust backend systems. From crafting intuitive frontends with React and Next.js to designing efficient server architectures, I focus on clean code and practical solutions.
+            I&apos;m an AI engineer who builds AI-powered systems that solve real problems rather than proof-of-concepts — from multimodal advisory tools and explainable ML to production web apps with Next.js and Django.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center md:justify-start">

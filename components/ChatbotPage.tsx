@@ -5,7 +5,7 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
-import { fullstackProjects, frontendProjects, skills } from '@/constants'
+import { fullstackProjects, aimlProjects, skills } from '@/constants'
 import Image from 'next/image'
 import { useChatStore } from '@/store/chatStore'
 import {
@@ -115,7 +115,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
         const decoder = new TextDecoder()
         let accumulatedText = ''
         let detectedAction: 'SHOW_PROJECTS' | 'SHOW_SKILLS' | undefined = undefined
-        let detectedFilter: 'fullstack' | 'frontend' | 'all' = 'all'
+        let detectedFilter: 'fullstack' | 'aiml' | 'all' = 'all'
 
         if (reader) {
           while (true) {
@@ -240,7 +240,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
       const decoder = new TextDecoder()
       let accumulatedText = ''
       let detectedAction: 'SHOW_PROJECTS' | 'SHOW_SKILLS' | undefined = undefined
-      let detectedFilter: 'fullstack' | 'frontend' | 'all' = 'all'
+      let detectedFilter: 'fullstack' | 'aiml' | 'all' = 'all'
 
       if (reader) {
         while (true) {
@@ -763,10 +763,10 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                             {/* Show Projects UI when action is SHOW_PROJECTS */}
                             {message.action === 'SHOW_PROJECTS' && (
                               <div className="mt-4 space-y-3">
-                                {[...fullstackProjects, ...frontendProjects]
+                                {[...fullstackProjects, ...aimlProjects]
                                   .filter(project => {
                                     if (message.filter === 'fullstack') return project.category === 'Fullstack'
-                                    if (message.filter === 'frontend') return project.category === 'Frontend'
+                                    if (message.filter === 'aiml') return project.category === 'AI/ML'
                                     return true
                                   })
                                   .map((project, index) => (
@@ -953,11 +953,11 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
             <div className="flex gap-2 justify-start min-w-max">
               {[
                 "Show me your projects",
+                "Tell me about FarmBuddy",
                 "What technologies do you work with?",
                 "Tell me about your experience",
-                "Can you build an e-commerce app?",
+                "Tell me about your community work",
                 "What's your contact information?",
-                "Show me your fullstack projects",
                 "What are your AI/ML skills?"
               ].map((suggestion, index) => (
                 <button

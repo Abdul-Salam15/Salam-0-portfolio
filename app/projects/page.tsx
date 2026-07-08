@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
-import { fullstackProjects, frontendProjects } from '@/constants'
+import { fullstackProjects, aimlProjects } from '@/constants'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import { generateBreadcrumbSchema, siteConfig } from '@/lib/seo'
@@ -218,7 +218,7 @@ export default function ProjectsPage() {
   const projectsPerPage = 4
 
   // Combine all projects
-  const allProjects = [...fullstackProjects, ...frontendProjects]
+  const allProjects = [...fullstackProjects, ...aimlProjects]
   const totalPages = Math.ceil(allProjects.length / projectsPerPage)
   
   // Get projects for current page

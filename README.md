@@ -1,4 +1,4 @@
-# Abdul-Salam Adebayo — Portfolio
+# Abdul-Salam Adebayo — AI Engineer Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, featuring an AI-powered chatbot assistant.
 
@@ -271,7 +271,7 @@ Contributions, issues, and feature requests are welcome!
 ## 📧 Contact
 
 - **Email**: abdulsalamadebayo0410@gmail.com
-- **LinkedIn**: [www.linkedin.com/in/YOUR_LINKEDIN_HANDLE](https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE)
+- **LinkedIn**: [www.linkedin.com/in/abdul-salam-adebayo](https://www.linkedin.com/in/abdul-salam-adebayo)
 - **GitHub**: [github.com/Abdul-Salam15](https://github.com/Abdul-Salam15)
 - **Twitter**: [@salamtweets_](https://twitter.com/salamtweets_)
 

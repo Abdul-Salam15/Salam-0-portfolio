@@ -7,7 +7,7 @@ interface Message {
   sender: 'user' | 'bot'
   timestamp: Date
   action?: 'SHOW_PROJECTS' | 'SHOW_SKILLS'
-  filter?: 'fullstack' | 'frontend' | 'all'
+  filter?: 'fullstack' | 'aiml' | 'all'
 }
 
 interface ChatStore {

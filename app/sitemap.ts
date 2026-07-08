@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { fullstackProjects, frontendProjects } from '@/constants'
+import { fullstackProjects, aimlProjects } from '@/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://salam-0-portfolio.vercel.app'
@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   // Dynamic routes from projects (if you want individual project pages in the future)
-  const allProjects = [...fullstackProjects, ...frontendProjects]
+  const allProjects = [...fullstackProjects, ...aimlProjects]
   const projectRoutes = allProjects.map((project) => ({
     url: project.liveUrl,
     lastModified: currentDate,

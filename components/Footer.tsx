@@ -26,7 +26,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"
+            href="https://www.linkedin.com/in/abdul-salam-adebayo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"

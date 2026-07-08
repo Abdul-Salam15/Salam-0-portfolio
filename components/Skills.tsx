@@ -10,38 +10,30 @@ const getSkill = (name: string) => skills.find(s => s.name === name)!
 // Categorized skills
 const skillCategories = {
   Languages: [
+    'Python',
     'JavaScript',
     'TypeScript',
-    'Python',
-   
+    'SQL',
+  ].map(name => getSkill(name)),
+  'AI/ML & Data': [
+    'Pandas',
+    'scikit-learn',
   ].map(name => getSkill(name)),
   Frontend: [
-    
     'HTML',
-    'CSS',    'Tailwind CSS',
-    'shadcn/ui',
+    'CSS',
+    'Tailwind CSS',
     'React',
     'Next.js',
-    'Framer Motion',
-  ].map(name => getSkill(name)),
-  'State Management': [
-    'React Query',
-    'Zustand',
   ].map(name => getSkill(name)),
   Backend: [
+    'Django',
     'Node.js',
     'Express',
     'PostgreSQL',
-    'MongoDB',
-    'Redis',
   ].map(name => getSkill(name)),
-  'Tools & Cloud': [
-    'Docker',
-    'Firebase',
-    'Prisma',
-    'Google Cloud',
-    'LangChain',
-    'Vercel',
+  Tools: [
+    'Git',
   ].map(name => getSkill(name)),
 }
 

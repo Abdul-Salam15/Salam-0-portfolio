@@ -171,15 +171,15 @@ export default function About() {
           >
             <div className="space-y-6">
               <p className="text-base md:text-lg lg:text-xl text-[var(--text-secondary)] leading-relaxed">
-                I&apos;m Abdul-Salam, a software engineer based in{' '}
+                I&apos;m Abdul-Salam, an AI engineer and Computer Science graduate from{' '}
                 <span className="text-[var(--text-primary)] font-semibold underline decoration-2 underline-offset-4">
-                  Lagos, Nigeria
+                  Bowen University
                 </span>
-                . [YOUR_BIO_PARAGRAPH_1: Tell your story here — how you got into coding, what drives you, and what you love building.]
+                , building AI-powered systems that solve real problems rather than proof-of-concepts. I work as a Software Engineer at 4orge, where I ship production systems end to end — from backend architecture to model integration. My technical focus sits at the intersection of multimodal AI, full-stack development with Next.js and Django, and multilingual text-to-speech systems.
               </p>
 
               <p className="text-base md:text-lg lg:text-xl text-[var(--text-secondary)] leading-relaxed">
-                [YOUR_BIO_PARAGRAPH_2: Add a second paragraph about your experience, education, or what you&apos;re currently working on and learning.]
+                My most substantial project is FarmBuddy, a multimodal AI agricultural advisory system that brings AI within reach of Nigerian smallholder farmers in their own languages. Beyond individual projects, I care about widening access to opportunity in tech — I lead the study/research group at Machine Learning Lagos, co-organize GDG On Campus Bowen University, and chaired Bowen Tech Week, a conference that drew over 1,000 attendees.
               </p>
             </div>
 
@@ -207,7 +207,7 @@ export default function About() {
                     Outside of coding
                   </h3>
                   <p className="text-base md:text-lg text-[var(--text-secondary)] leading-relaxed">
-                  [YOUR_HOBBIES: Share what you do outside of coding — hobbies, interests, and how they influence the way you build software.]
+                  When I&apos;m not immersed in engineering or community building, I&apos;m probably watching football, deep into a story-driven game, or trying to shave a few more seconds off my Rubik&apos;s Cube solve time.
                   </p>
                 </div>
               </div>

@@ -85,7 +85,7 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
 - Questions ABOUT projects/experience = answer in DETAILED text with links
 - Requests to SEE projects = use [SHOW_PROJECTS] marker
 - For fullstack only: [SHOW_PROJECTS:fullstack]
-- For frontend only: [SHOW_PROJECTS:frontend]
+- For AI/ML projects only: [SHOW_PROJECTS:aiml]
 - For skills: Only use [SHOW_SKILLS] when user asks to SEE/VIEW skills, not when asking "what skills does he have"
 - Default to DETAILED TEXT answers with markdown links unless user clearly wants a visual display`
 
@@ -120,7 +120,7 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
     let streamedResponse = '' // What we've already sent to client
     
     // Regex to match all marker patterns
-    const markerRegex = /\[SHOW_PROJECTS(:fullstack|:frontend)?\]|\[SHOW_SKILLS\]/g
+    const markerRegex = /\[SHOW_PROJECTS(:fullstack|:aiml)?\]|\[SHOW_SKILLS\]/g
     
     const readable = new ReadableStream({
       async start(controller) {
@@ -131,7 +131,7 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
               fullResponse += content
               
               // Check if we're in the middle of a potential marker
-              const markers = ['[SHOW_PROJECTS:fullstack]', '[SHOW_PROJECTS:frontend]', '[SHOW_PROJECTS]', '[SHOW_SKILLS]']
+              const markers = ['[SHOW_PROJECTS:fullstack]', '[SHOW_PROJECTS:aiml]', '[SHOW_PROJECTS]', '[SHOW_SKILLS]']
               let isPartialMarker = false
               
               // Check if current fullResponse ends with a partial marker
@@ -175,9 +175,9 @@ SPECIAL UI TRIGGERS (USE VERY CAREFULLY):
           if (fullResponse.includes('[SHOW_PROJECTS:fullstack]')) {
             action = 'SHOW_PROJECTS'
             filter = 'fullstack'
-          } else if (fullResponse.includes('[SHOW_PROJECTS:frontend]')) {
+          } else if (fullResponse.includes('[SHOW_PROJECTS:aiml]')) {
             action = 'SHOW_PROJECTS'
-            filter = 'frontend'
+            filter = 'aiml'
           } else if (fullResponse.includes('[SHOW_PROJECTS]')) {
             action = 'SHOW_PROJECTS'
           } else if (fullResponse.includes('[SHOW_SKILLS]')) {

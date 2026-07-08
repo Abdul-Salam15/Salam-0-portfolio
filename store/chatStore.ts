@@ -7,7 +7,7 @@ interface Message {
   sender: 'user' | 'bot'
   timestamp: Date
   action?: 'SHOW_PROJECTS' | 'SHOW_SKILLS'
-  filter?: 'fullstack' | 'frontend' | 'all'
+  filter?: 'fullstack' | 'aiml' | 'all'
 }
 
 interface ChatStore {
@@ -46,7 +46,7 @@ export const useChatStore = create<ChatStore>()(
         }),
     }),
     {
-      name: 'habeeb-chat-storage',
+      name: 'salam-chat-storage',
       storage: createJSONStorage(() => localStorage),
       // Serialize dates properly
       partialize: (state) => ({ messages: state.messages }),

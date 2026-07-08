@@ -5,7 +5,7 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
-import { fullstackProjects, frontendProjects, skills } from '@/constants'
+import { fullstackProjects, aimlProjects, skills } from '@/constants'
 import Image from 'next/image'
 import { useChatStore } from '@/store/chatStore'
 import {
@@ -115,7 +115,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
         const decoder = new TextDecoder()
         let accumulatedText = ''
         let detectedAction: 'SHOW_PROJECTS' | 'SHOW_SKILLS' | undefined = undefined
-        let detectedFilter: 'fullstack' | 'frontend' | 'all' = 'all'
+        let detectedFilter: 'fullstack' | 'aiml' | 'all' = 'all'
 
         if (reader) {
           while (true) {
@@ -240,7 +240,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
       const decoder = new TextDecoder()
       let accumulatedText = ''
       let detectedAction: 'SHOW_PROJECTS' | 'SHOW_SKILLS' | undefined = undefined
-      let detectedFilter: 'fullstack' | 'frontend' | 'all' = 'all'
+      let detectedFilter: 'fullstack' | 'aiml' | 'all' = 'all'
 
       if (reader) {
         while (true) {
@@ -551,7 +551,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                 <span className="font-medium">Contact</span>
               </Link>
 
-              {/* Ask Habeeb Link (Current Page) */}
+              {/* Ask Salam Link (Current Page) */}
               <Link
                 href="/"
                 onClick={() => setShowMobileMenu(false)}
@@ -560,7 +560,7 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                 </svg>
-                <span className="font-medium">Ask Habeeb AI</span>
+                <span className="font-medium">Ask Salam AI</span>
               </Link>
             </nav>
           </div>
@@ -606,8 +606,8 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
               <div className="absolute inset-0 border-2 sm:border-4 border-[var(--border)] rounded-full animate-pulse-slow"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-2 sm:border-4 border-[var(--border)] shadow-2xl">
                 <Image
-                  src="/images/habeebportfolio.jpg"
-                  alt="Habeeb Owoade"
+                  src="/images/profile-placeholder.svg"
+                  alt="Abdul-Salam Adebayo"
                   fill
                   className="object-cover object-[center_0%]"
                   priority
@@ -616,10 +616,10 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
             </div>
             
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[var(--text-primary)] text-center mb-3">
-              👋 Hi! I'm Habeeb's AI Assistant
+              👋 Hi! I'm Abdul-Salam's AI Assistant
             </h2>
             <p className="text-sm sm:text-base text-[var(--text-secondary)] text-center max-w-2xl">
-              Ask me about Habeeb's projects, skills, experience, or contact information. 
+              Ask me about Abdul-Salam's projects, skills, experience, or contact information.
               <br className="hidden sm:block" />
               Try: "Show me your projects" or "What technologies do you work with?"
             </p>
@@ -763,10 +763,10 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
                             {/* Show Projects UI when action is SHOW_PROJECTS */}
                             {message.action === 'SHOW_PROJECTS' && (
                               <div className="mt-4 space-y-3">
-                                {[...fullstackProjects, ...frontendProjects]
+                                {[...fullstackProjects, ...aimlProjects]
                                   .filter(project => {
                                     if (message.filter === 'fullstack') return project.category === 'Fullstack'
-                                    if (message.filter === 'frontend') return project.category === 'Frontend'
+                                    if (message.filter === 'aiml') return project.category === 'AI/ML'
                                     return true
                                   })
                                   .map((project, index) => (
@@ -953,11 +953,11 @@ export default function ChatbotPage({ homeIcon = 'home', homeLink = '/portfolio'
             <div className="flex gap-2 justify-start min-w-max">
               {[
                 "Show me your projects",
+                "Tell me about FarmBuddy",
                 "What technologies do you work with?",
                 "Tell me about your experience",
-                "Can you build an e-commerce app?",
+                "Tell me about your community work",
                 "What's your contact information?",
-                "Show me your fullstack projects",
                 "What are your AI/ML skills?"
               ].map((suggestion, index) => (
                 <button

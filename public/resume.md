@@ -1,159 +1,144 @@
-# Habeeb Owoade
+# Abdul-Salam Adebayo
 
-**Software Engineer**
+**AI Engineer**
 
-📞 +234-913-649-7992  
-📧 owoadehabeeb04@gmail.com  
-🔗 LinkedIn | GitHub | Portfolio  
+📞 +234-807-126-1492
+📧 abdulsalamadebayo0410@gmail.com
+📍 Lagos, Nigeria
+🔗 [LinkedIn](https://www.linkedin.com/in/abdul-salam-adebayo) | [GitHub](https://github.com/Abdul-Salam15) | [Twitter](https://twitter.com/salamtweets_)
+
+---
+
+## Summary
+
+AI Engineer and Computer Science graduate from Bowen University, building AI-powered systems that solve real problems rather than proof-of-concepts. Technical focus at the intersection of multimodal AI, full-stack development (Next.js & Django), and multilingual text-to-speech systems. Currently seeking full-time AI/software engineering roles.
 
 ---
 
 ## Education
 
-**Bowen University**  
-B.Sc. Software Engineering  
-**CGPA:** 4.65 / 5.00 (Top 1%)
-
-- First runner-up, TechHub Frontend Hackathon (20+ students)
-- Relevant coursework:
-  - Data Structures
-  - Web Technologies
-  - Algorithms
-  - Computer Architecture
+**Bowen University — Iwo, Nigeria**
+B.Sc. Computer Science
+*Oct 2022 – Jul 2026*
 
 ---
 
 ## Experience
 
-### Software Engineer (Remote)  
-**Solar Survey AI — Illinois, USA**  
-*Sept 2024 – Oct 2025*
+### Software Engineer
+**4orge — Nigeria**
+*Dec 2025 – Present*
 
-- Engineered an interactive 3D globe explorer using **React, Three.js, TypeScript** for real-time visualization of solar projects across multiple geographies
-- Launched a scalable **Progressive Web App (PWA)** with offline support for field technicians, improving usability by **40%**
-- Developed an admin dashboard supporting bulk uploads, automated image exports (400+ images), and granular user controls
-- Integrated **Google Maps API** and **WebSockets** for precise mapping and real-time upload feedback
-
----
-
-### Software Engineer (Contract)  
-**Omo AI — Remote**  
-*July 2025 – Oct 2025*
-
-- Co-developed an AI-powered chatbot platform enabling businesses to track ad performance and engagement in real time
-- Built a secure authentication and onboarding system with **OAuth (Google Cloud)** and **role-based access control**
-- Implemented dynamic settings and a robust admin dashboard for user and data management
-- Used **Prisma ORM, PostgreSQL, Docker, Next.js, LangChain, and Google Cloud Platform** for scalable backend and AI integration
-- Collaborated closely with a small engineering team to refine chatbot workflows, automate feedback loops, and improve analytics accuracy
+- Conducted thorough QA testing for "The Gaffer", identifying bugs and inconsistencies to enhance application reliability
+- Collaborated on the backend development of a secured voting platform, ensuring safe and accurate vote handling
+- Contributing to innovative solutions in a dynamic startup environment
 
 ---
 
-### Enterprise Software Engineer Intern  
-**NSIA Insurance — Lagos, Nigeria**  
-*Mar 2025 – Aug 2025*
+### Software Engineer Intern
+**Merrowgate — Nigeria**
+*Feb 2026 – Apr 2026*
 
-- Architected and built a customer portal for insurance policy purchase and management using **Node.js, Express.js, PostgreSQL**
-- Implemented **Redis** and **BullMQ** for background policy document processing and scalability
-- Automated internal GIT portal workflows with bulk-upload tools, reducing manual entry time by **75%**
-- Designed and deployed a corporate blog platform with **React.js** and **Tailwind CSS**
-- Partnered with IT and design teams to roll out a standardized email signature system for **300+ employees**
+- Conducted thorough research on competitors and market weaknesses to enhance product positioning
+- Planned and structured project development timelines, defining milestones and delivery phases for upcoming builds
+- Outlined technical specifications for projects, detailing architecture and implementation requirements prior to development
 
 ---
 
-### Frontend Engineer (Remote)  
-**Chef4Me — Lagos, Nigeria**  
-*Sept 2023 – Oct 2024*
+### Backend Engineering Intern
+**Synergy Solutions IMC LTD — Lagos, Nigeria**
+*Jul 2025 – Sep 2025*
 
-- Built a scalable **Learning Management System (LMS)** supporting over **1,000 users**
-- Implemented real-time notifications, course creation, and progress tracking
-- Improved system responsiveness by **70%** through optimized REST API integrations
-- Increased website performance and user experience by **80%** using frontend optimization and lazy loading
-- Developed a full admin dashboard for user, cart, and order management
+- Developed a Task Management System utilizing the **Gemini API** for intelligent task recommendations
+- Collaborated with senior engineers to design and implement scalable applications
+- Optimized backend processes, significantly reducing API response times
 
 ---
 
-### Frontend Engineer Intern (Finalist)  
-**HNG Technologies — Lagos, Nigeria**  
-*June 2024 – Aug 2024*
+### Data Science Intern
+**Synergy Solutions IMC LTD — Lagos, Nigeria**
+*Jul 2024 – Jul 2025*
 
-- Ranked in the **Top 500 out of 30,000+** participants
-- Built an e-commerce application using **React (Vite), TypeScript, Tailwind CSS**, and Timbu API
-- Developed **DelveFun**, a full-stack language learning platform with authentication, progress tracking, and admin dashboard
+- Developed a **logistic regression** model to predict employee churn, supporting strategic retention initiatives
+- Cleaned and preprocessed datasets to ensure high-quality data for analysis and modeling
+- Assisted in generating insightful reports, translating model outputs into actionable recommendations for stakeholders
 
 ---
 
 ## Projects
 
-### Vyna — AI Music Playlist App (2025)
-**Tech:** Next.js, MongoDB, Node.js, Gemini API, Spotify API, Redis, BullMQ
+### FarmBuddy — Multimodal AI Agricultural Advisor
+**Tech:** Next.js, Django, OpenAI, YarnGPT | [Live](https://farmbuddy-orcin.vercel.app/)
 
-- Developed an AI chatbot that generates personalized playlists based on user mood
-- Launched a **New Music Friday** feature with weekly email recommendations
-- Implemented a seeding engine to generate playlists from seed tracks
-- Optimized background playlist generation and email scheduling using Redis and BullMQ
+- Multimodal AI advisory system for Nigerian smallholder farmers, pairing OpenAI reasoning with YarnGPT multilingual text-to-speech across Hausa, Igbo, Yoruba, and Nigerian English
+- Delivered as a PWA and Telegram bot to stay accessible in low-data areas
+- Scored **89.56/100 (Excellent)** on the System Usability Scale in testing with 80 participants
 
----
+### CardioXAI — Explainable Heart Disease Risk Screening
+**Tech:** Python, scikit-learn, XGBoost, SHAP, LIME | [Live](https://cardioxai-rovx.onrender.com)
 
-### Recipia — AI Recipe App (2025)
-**Tech:** Next.js, MongoDB, Gemini API
+- Estimates coronary heart disease risk from self-reported lifestyle and demographic data — no lab tests required
+- Trained Logistic Regression, Random Forest, and XGBoost on the CDC's BRFSS dataset (253,680 records) with SMOTE; weighted consensus ensemble achieved **0.815 AUC-ROC**
+- Dual explainability via SHAP and LIME, confidence tiers from inter-model disagreement, and an interactive risk-factor knowledge graph
 
-- Built an AI-powered chatbot with multimodal input (voice and image) for recipe discovery
-- Integrated **Google Calendar API** for real-time meal planning and scheduling
-- Implemented role-based access control, personalized dashboards, and collaborative features
+### NEXUS — AI-Powered Task Management
+**Tech:** React, TypeScript, Express, Gemini API | [Live](https://nexus-frontend-2hy5.onrender.com)
 
----
+- Full-stack task manager with auto-scheduling by deadline, priority, and effort estimate, plus productivity analytics
+- Gemini-powered task recommendations with heuristic fallback; JWT auth with refresh tokens and email OTP password reset
 
-### Link Sharing Web App (2024)
-**Tech:** Next.js, Firebase
+### VitalWatch — Health Monitoring Platform
+**Tech:** React, TypeScript, Node.js | [Live](https://vitalwatch-5hgr.onrender.com)
 
-- Built public profiles with verified links and authentication
-- Designed a link management system with shareable URLs to boost user visibility
+- Daily vitals logging (heart rate, SpO2, temperature, steps) with anomaly detection
+- Medication reminders with escalating alarms, caregiver email alerts, and a tokenized read-only caregiver view; timezone-aware scheduling
 
----
+### Employee Attrition Prediction
+**Tech:** Python, Pandas, scikit-learn | [Write-up](https://employee-attrition-prediction.hashnode.dev/predict-employee-attrition-using-python-and-logistic-regression)
 
-### Ace Stores — E-commerce Platform (2023)
-**Tech:** React, TypeScript, Firebase, Paystack
-
-- Implemented secure authentication, cart and order management
-- Integrated Paystack checkout for real transactions
-- Converted Figma wireframes into a responsive, pixel-perfect UI
+- EDA and baseline classification of employee attrition drivers across department, gender, education field, and job role
+- Logistic Regression with random oversampling for class imbalance; **66.5% F1-score**
 
 ---
 
-## Leadership & Volunteering
+## Leadership & Community
 
-### Frontend Development Instructor  
-**Bowen Tech Hub — Osun, Nigeria**  
-*Feb 2024 – Present*
+### Study/Research Group Lead
+**Machine Learning Lagos** — *Aug 2025 – Present*
 
-- Taught **HTML, CSS, and React** to 30+ students in workshop-style sessions
-- Mentored beginner developers through project-based learning and code reviews
+- Leading bi-weekly study sessions for 500+ students on ML concepts and research papers
+- Facilitating guided discussions and peer-learning strategies
+
+### Co-Organizer
+**GDG On Campus Bowen University**
+
+- Helping student developers build real skills through hands-on sessions and community events
+
+### Chairperson, Bowen Tech Week
+**Bowen University**
+
+- Chaired a tech conference with 1,000+ attendees; handled speaker curation, logistics, and sponsorship
 
 ---
 
 ## Technical Skills
 
-**Languages:**  
-JavaScript, TypeScript, HTML5, CSS3, Python, SQL
+**Languages:** Python, JavaScript, TypeScript, SQL, HTML5, CSS3
 
-**Frontend:**  
-React, Next.js, Tailwind CSS, Bootstrap
+**AI/ML:** OpenAI integration, Gemini API, Multimodal AI systems, scikit-learn, Pandas, XGBoost, SHAP/LIME explainability, Text-to-speech (YarnGPT)
 
-**Backend:**  
-Node.js, Express.js, MongoDB, Firebase
+**Frontend:** React, Next.js, Tailwind CSS
 
-**Tools & Platforms:**  
-Git, Figma, Vercel, Firebase Auth, Postman, WebSockets
+**Backend:** Django, Node.js, Express.js, PostgreSQL, API performance optimization
 
-**Currently Learning:**  
-Remix, Flask, LangChain.js
+**Tools & Platforms:** Git, Vercel, JWT authentication, Telegram Bot API, PWA
+
+**Spoken Languages:** English (native/bilingual), Yoruba (native/bilingual)
 
 ---
 
 ## Interests
 
+- Football
 - Story-driven video games
-- Building AI-powered products
-- Clean UI and editorial-style web design
-
-
+- Speedcubing (Rubik's Cube)

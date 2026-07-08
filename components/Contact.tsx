@@ -50,17 +50,17 @@ export default function Contact() {
             }`}
           >
             <a
-              href="mailto:owoadehabeeb04@gmail.com"
+              href="mailto:abdulsalamadebayo0410@gmail.com"
               className="inline-block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-[var(--text-primary)] underline decoration-2 underline-offset-4 hover:opacity-80 transition-opacity duration-300 break-all sm:break-normal"
             >
-              OWOADEHABEEB04@GMAIL.COM
+              ABDULSALAMADEBAYO0410@GMAIL.COM
             </a>
           </div>
 
           {/* Social Links */}
           <div className="flex flex-wrap items-center gap-4 md:gap-6 pt-8">
             <a
-              href="https://x.com/Drealtemiteee_"
+              href="https://x.com/salamtweets_"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base md:text-lg text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-300"
@@ -69,7 +69,7 @@ export default function Contact() {
             </a>
             <span className="text-[var(--text-secondary)]/30">•</span>
             <a
-              href="https://www.linkedin.com/in/owoade-habeeb"
+              href="https://www.linkedin.com/in/abdul-salam-adebayo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base md:text-lg text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-300"
@@ -78,7 +78,7 @@ export default function Contact() {
             </a>
             <span className="text-[var(--text-secondary)]/30">•</span>
             <a
-              href="https://github.com/owoadehabeeb04"
+              href="https://github.com/Abdul-Salam15"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base md:text-lg text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-300"

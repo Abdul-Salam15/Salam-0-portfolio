@@ -6,7 +6,7 @@ export interface Message {
   sender: 'user' | 'bot'
   timestamp: Date
   action?: 'SHOW_PROJECTS' | 'SHOW_SKILLS'
-  filter?: 'fullstack' | 'frontend' | 'all'
+  filter?: 'fullstack' | 'aiml' | 'all'
 }
 
 export interface TechStackItem {
@@ -58,7 +58,15 @@ export interface Education {
   location: string
   startDate: string
   endDate: string
-  cgpa: string
-  highlights: string[]
+  cgpa?: string
+  highlights?: string[]
+}
+
+export interface LeadershipRole {
+  title: string
+  organization: string
+  startDate?: string
+  endDate?: string
+  achievements: string[]
 }
 

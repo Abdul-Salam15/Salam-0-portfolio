@@ -7,7 +7,7 @@ export default function ConditionalThemeToggle() {
   const pathname = usePathname()
   
   // Hide theme toggle on chatbot pages (it's in the header there)
-  const isChatbotPage = pathname === '/' || pathname === '/ask-habeeb'
+  const isChatbotPage = pathname === '/' || pathname === '/ask-salam'
   
   if (isChatbotPage) {
     return null

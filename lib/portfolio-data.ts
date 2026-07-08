@@ -2,283 +2,206 @@
 export const portfolioChunks = [
   {
     id: 'bio',
-    keywords: ['who', 'habeeb', 'about', 'student', 'education', 'university', 'contact', 'email', 'phone', 'social', 'links'],
-    content: `Habeeb Owoade (Owoade Habeeb Temitope) is a Software Engineering student at Bowen University (CGPA: 4.65/5.00, Top 1%). 
-    First runner-up in TechHub Frontend Hackathon (20+ students).
-    
-    CONTACT:
-    - Email: owoadehabeeb04@gmail.com
-    - Phone: +234-913-649-7992
-    - GitHub: github.com/owoadehabeeb04
-    - LinkedIn: linkedin.com/in/owoade-habeeb (also: linkedin.com/in/owoade-habeeb-temitope-a747601b0)
-    - Twitter: twitter.com/Drealtemiteee_
-    - Portfolio: [Full Portfolio](/portfolio)
-    
-    He's a full-stack developer who builds scalable web applications and robust backend systems. From crafting intuitive frontends with React and Next.js to designing efficient server architectures, he focuses on clean code and practical solutions.`
-  },
-  {
-    id: 'solar_survey',
-    keywords: ['solar', 'survey', 'three.js', '3d', 'globe', 'pwa', 'offline', 'maps', 'websocket', 'experience', 'work', 'job', 'career', 'employment'],
-    content: `Software Engineer at Solar Survey AI (Sept 2024 - Oct 2025, Remote, Illinois):
-    - Built interactive 3D globe with React, Three.js, TypeScript for solar project visualization
-    - Launched PWA with offline mode, improving field usability by 40%
-    - Developed admin dashboard with bulk uploads (400+ images), Google Maps API, WebSockets`
-  },
-  {
-    id: 'omo_ai',
-    keywords: ['omo', 'ai', 'chatbot', 'ads', 'analytics', 'prisma', 'postgresql', 'docker', 'langchain', 'experience', 'work', 'job', 'career', 'employment', 'contract'],
-    content: `Software Engineer at Omo AI (July 2025 - Oct 2025, Contract):
-    - Co-developed AI-powered chatbot for ad performance tracking
-    - Built authentication/onboarding with OAuth (Google Cloud), RBAC
-    - Tech stack: Prisma ORM, PostgreSQL, Docker, Next.js, LangChain, Google Cloud Platform`
-  },
-  {
-    id: 'nsia',
-    keywords: ['nsia', 'insurance', 'intern', 'node', 'express', 'redis', 'bullmq', 'portal', 'experience', 'work', 'job', 'career', 'employment', 'internship'],
-    content: `Enterprise Software Engineer Intern at NSIA Insurance (Mar 2025 - Aug 2025, Lagos):
-    - Architected customer portal for insurance policies with Node.js, Express.js, PostgreSQL, Redis, BullMQ
-    - Automated GIT portal processes, reducing manual entry by 75%
-    - Built corporate blog with React.js, Tailwind CSS
-    - Deployed email signature system for 300+ employees`
-  },
-  {
-    id: 'chef4me',
-    keywords: ['chef', 'lms', 'learning', 'course', 'notifications', 'experience', 'work', 'job', 'career', 'employment'],
-    content: `Frontend Engineer at Chef4Me (Sept 2023 - Oct 2024, Remote, Lagos):
-    - Built LMS platform for 1,000+ users with real-time notifications, course creation, progress tracking
-    - Boosted responsiveness by 70% via optimized REST APIs
-    - Increased performance by 80% with lazy loading and frontend optimization
-    - Developed admin dashboard for user/cart/order management`
-  },
-  {
-    id: 'hng',
-    keywords: ['hng', 'hackathon', 'timbu', 'delvefun', 'e-commerce', 'experience', 'work', 'job', 'career', 'employment', 'internship'],
-    content: `Frontend Engineer Intern Finalist at HNG Technologies (June 2024 - Aug 2024):
-    - Ranked Top 500 out of 30,000+ participants
-    - Built e-commerce app with Timbu API, React (Vite), TypeScript, Tailwind CSS
-    - Developed DelveFun: full-stack language learning platform with auth, progress tracking, admin dashboard`
-  },
+    keywords: ['who', 'salam', 'abdul-salam', 'about', 'bio', 'graduate', 'contact', 'email', 'phone', 'social', 'links', 'hobbies', 'interests'],
+    content: `Abdul-Salam Adebayo (Abdul-Salam) is an AI Engineer and Computer Science graduate from Bowen University, based in Lagos, Nigeria. He builds AI-powered systems that solve real problems rather than proof-of-concepts. His technical focus sits at the intersection of multimodal AI, full-stack development (Next.js & Django), and multilingual text-to-speech systems. He is currently looking for full-time AI/software engineering roles where he can build systems that matter at scale.
 
-  {
-    id: 'recipia',
-    keywords: ['recipia', 'recipe', 'cooking', 'voice', 'image', 'calendar', 'meal'],
-    content: `Recipia - AI Recipe App (2025) | Next.js, MongoDB, Gemini API:
-    - AI chatbot with multimodal input (voice/image) for recipe discovery
-    - Google Calendar API integration for meal planning
-    - Full-stack platform with RBAC, personalized dashboards, collaborative features`
+    CONTACT:
+    - Email: abdulsalamadebayo0410@gmail.com
+    - Phone: +234-807-126-1492
+    - GitHub: github.com/Abdul-Salam15
+    - LinkedIn: linkedin.com/in/abdul-salam-adebayo
+    - Twitter: twitter.com/salamtweets_
+    - Portfolio: [Full Portfolio](/portfolio)
+
+    Outside of engineering he watches football, plays story-driven video games, and speedcubes (always trying to shave seconds off his Rubik's Cube solve time). He speaks English and Yoruba.`
   },
   {
-    id: 'link_sharing',
-    keywords: ['link', 'sharing', 'profile', 'firebase', 'verified'],
-    content: `Link Sharing Web App (2024) | Next.js, Firebase:
-    - Public profiles with verified links and shareable URLs
-    - Link management system for verified resource sharing`
+    id: 'experience_4orge',
+    keywords: ['4orge', 'gaffer', 'voting', 'qa', 'current', 'experience', 'work', 'job', 'career', 'employment', 'startup'],
+    content: `Software Engineer at 4orge (Dec 2025 - Present, Nigeria):
+    - Conducted thorough QA testing for "The Gaffer", identifying bugs and inconsistencies to enhance application reliability
+    - Collaborated on the backend development of a secured voting platform, ensuring safe and accurate vote handling
+    - Contributing to innovative solutions in a dynamic startup environment`
   },
   {
-    id: 'ace_stores',
-    keywords: ['ace', 'stores', 'e-commerce', 'shop', 'paystack', 'payment', 'cart'],
-    content: `Ace Stores - E-commerce Platform (2023) | React, TypeScript, Firebase:
-    - Secure authentication, cart/order management, Paystack checkout
-    - Converted Figma to pixel-perfect responsive UI`
+    id: 'experience_merrowgate',
+    keywords: ['merrowgate', 'research', 'specifications', 'experience', 'work', 'job', 'career', 'employment', 'internship'],
+    content: `Software Engineer Intern at Merrowgate (Feb 2026 - Apr 2026, Nigeria):
+    - Conducted thorough research on competitors and market weaknesses to enhance product positioning
+    - Planned and structured project development timelines, defining milestones and delivery phases
+    - Outlined technical specifications for projects, detailing architecture and implementation requirements prior to development`
+  },
+  {
+    id: 'experience_synergy',
+    keywords: ['synergy', 'backend', 'gemini', 'data science', 'churn', 'experience', 'work', 'job', 'career', 'employment', 'internship'],
+    content: `Backend Engineering Intern at Synergy Solutions IMC LTD (Jul 2025 - Sep 2025, Lagos):
+    - Developed a Task Management System utilizing the Gemini API for intelligent task recommendations
+    - Collaborated with senior engineers to design and implement scalable applications
+    - Optimized backend processes, significantly reducing API response times
+
+    Data Science Intern at Synergy Solutions IMC LTD (Jul 2024 - Jul 2025, Lagos):
+    - Developed a logistic regression model to predict employee churn, supporting strategic retention initiatives
+    - Cleaned and preprocessed datasets to ensure high-quality data for analysis and modeling
+    - Generated insightful reports, translating model outputs into actionable recommendations for stakeholders`
+  },
+  {
+    id: 'leadership',
+    keywords: ['community', 'leadership', 'gdg', 'google', 'ml lagos', 'machine learning lagos', 'teach', 'mentor', 'volunteer', 'tech week', 'conference', 'organizer'],
+    content: `Leadership & Community:
+    - Study/Research Group Lead at Machine Learning Lagos (Aug 2025 - Present): leads bi-weekly study sessions for 500+ students on machine learning concepts and research papers, facilitates guided discussions on practical ML applications, and develops peer-learning strategies
+    - Co-Organizer of GDG On Campus Bowen University: helps student developers build real skills, not just credentials
+    - Chairperson of Bowen Tech Week: chaired a tech conference that drew over 1,000 attendees, handling speaker curation, logistics, and sponsorship end to end`
+  },
+  {
+    id: 'education',
+    keywords: ['education', 'school', 'university', 'bowen', 'degree', 'student', 'academic', 'study', 'computer science'],
+    content: `Education: B.Sc. Computer Science at Bowen University, Iwo, Nigeria (Oct 2022 - Jul 2026).
+    Languages spoken: English (native/bilingual), Yoruba (native/bilingual).`
   },
   {
     id: 'skills',
-    keywords: ['skills', 'tech', 'stack', 'technologies', 'tools', 'languages', 'learning', 'what', 'know', 'familiar'],
+    keywords: ['skills', 'tech', 'stack', 'technologies', 'tools', 'languages', 'learning', 'what', 'know', 'familiar', 'ai', 'ml'],
     content: `Technical Skills:
-    
-    LANGUAGES: JavaScript, TypeScript, HTML5/CSS3, Python, SQL
-    
-    FRONTEND: React, Next.js, Tailwind CSS, shadcn/ui, Bootstrap, Framer Motion
-    
-    BACKEND: Node.js, Express.js, MongoDB, Firebase, PostgreSQL, Prisma ORM, Redis
-    
-    STATE MANAGEMENT: React Query (TanStack Query), Zustand
-    
-    AI/ML: LangChain, LangGraph, Gemini API, Google Cloud AI
-    
-    3D/GRAPHICS: Three.js
-    
-    DEVOPS & TOOLS: Docker, Git, Figma, Vercel, Firebase Auth, Postman, WebSockets, Google Cloud Platform, BullMQ
-    
-    CURRENTLY LEARNING: Remix, Flask, LangChain.js
-    
-    Full list of technologies: Python, SQL, HTML5, CSS3, Tailwind CSS, JavaScript, React, Next.js, Node.js, Express.js, MongoDB, Prisma, Firebase, Framer Motion, TypeScript, PostgreSQL, Docker, Google Cloud, Redis, Three.js, LangChain, LangGraph`
+
+    LANGUAGES: Python, JavaScript, TypeScript, SQL, HTML5, CSS3
+
+    AI/ML: OpenAI integration, Gemini API, multimodal AI systems, scikit-learn, Pandas, XGBoost, SHAP/LIME explainability, multilingual text-to-speech (YarnGPT)
+
+    FRONTEND: React, Next.js, Tailwind CSS
+
+    BACKEND: Django, Node.js, Express.js, PostgreSQL, API performance optimization
+
+    TOOLS & PLATFORMS: Git, Vercel, JWT authentication, Telegram Bot API, PWA
+
+    LinkedIn top skills: OpenAI Integration, API Performance Optimization, Multimodal AI Systems`
   },
   {
-    id: 'teaching',
-    keywords: ['teach', 'instructor', 'mentor', 'bowen', 'tech', 'hub', 'workshop', 'experience', 'work', 'job', 'career', 'employment'],
-    content: `Frontend Dev Instructor at Bowen Tech Hub (Feb 2024 - Present):
-    - Taught HTML, CSS, React to 30+ students in workshops
-    - Mentored beginner devs in project-based learning and code reviews`
+    id: 'farmbuddy_details',
+    keywords: ['farmbuddy', 'farm', 'farmer', 'agriculture', 'agricultural', 'yarngpt', 'hausa', 'igbo', 'yoruba', 'telegram', 'tts', 'text-to-speech', 'multimodal', 'flagship'],
+    content: `FarmBuddy - Multimodal AI Agricultural Advisor (flagship project) | Next.js, Django, OpenAI, YarnGPT:
+
+    LIVE: https://farmbuddy-orcin.vercel.app/
+
+    A multimodal AI agricultural advisory system built for Nigerian smallholder farmers. It pairs OpenAI for reasoning with YarnGPT for multilingual text-to-speech across Hausa, Igbo, Yoruba, and Nigerian English, closing the language gap that keeps most AI tools out of reach for millions of farmers.
+
+    KEY FEATURES:
+    - OpenAI-powered reasoning for agricultural advice
+    - YarnGPT multilingual text-to-speech (Hausa, Igbo, Yoruba, Nigerian English)
+    - Delivered as a PWA and a Telegram bot, staying accessible in low-data areas without a native app install
+    - Scored 89.56/100 (Excellent) on the System Usability Scale in usability testing with 80 participants
+
+    TECH STACK: Next.js, Django, OpenAI API, YarnGPT, PWA, Telegram Bot API`
+  },
+  {
+    id: 'cardioxai_details',
+    keywords: ['cardioxai', 'cardio', 'heart', 'disease', 'health', 'risk', 'xai', 'explainable', 'shap', 'lime', 'xgboost', 'ensemble', 'brfss'],
+    content: `CardioXAI - Explainable AI System for Coronary Heart Disease Risk Screening | Python, scikit-learn, XGBoost:
+
+    LIVE: https://cardioxai-rovx.onrender.com
+
+    An explainable AI system that estimates coronary heart disease risk using only self-reported lifestyle and demographic data, requiring no lab tests.
+
+    KEY DETAILS:
+    - Trained three classifiers (Logistic Regression, Random Forest, XGBoost) on the CDC's BRFSS dataset of 253,680 records
+    - Applied SMOTE to address class imbalance
+    - Weighted consensus ensemble achieving 0.815 AUC-ROC on the test set
+    - Every prediction includes dual explainability through SHAP and LIME
+    - Confidence tier based on inter-model disagreement
+    - Interactive risk-factor knowledge graph`
+  },
+  {
+    id: 'nexus_details',
+    keywords: ['nexus', 'task', 'management', 'productivity', 'scheduling', 'jwt', 'otp', 'gemini'],
+    content: `NEXUS - Full Stack AI-Powered Task Management System | React, TypeScript, Express:
+
+    LIVE: https://nexus-frontend-2hy5.onrender.com
+
+    A full-stack task manager with auto-scheduling, productivity analytics, and AI-powered recommendations.
+
+    KEY FEATURES:
+    - Automatically packs pending tasks into upcoming weekdays based on deadline, priority, and effort estimate
+    - Tracks completion rates and workload trends
+    - Task recommendations powered by the Gemini API, with built-in heuristics as a fallback when no API key is configured
+    - Full JWT-based authentication with refresh tokens
+    - Email-based OTP password reset flow`
+  },
+  {
+    id: 'vitalwatch_details',
+    keywords: ['vitalwatch', 'vitals', 'health', 'monitoring', 'medication', 'adherence', 'caregiver', 'heart rate', 'spo2', 'reminder'],
+    content: `VitalWatch - Health Monitoring & Medication Adherence Platform | React, TypeScript, Node.js:
+
+    LIVE: https://vitalwatch-5hgr.onrender.com
+
+    A personal health-monitoring web app for logging daily vitals with instant analysis and anomaly detection.
+
+    KEY FEATURES:
+    - Daily vitals logging: heart rate, SpO2, temperature, steps
+    - Anomaly detection on logged vitals
+    - Medication reminder system with escalating in-app alarms
+    - Automated email alerts to caregivers when doses are missed
+    - Tokenized read-only caregiver view requiring no login
+    - Timezone-aware scheduling so reminders and adherence tracking are always evaluated in the patient's local time`
+  },
+  {
+    id: 'attrition_details',
+    keywords: ['attrition', 'employee', 'hr', 'churn', 'logistic', 'regression', 'oversampling', 'hashnode', 'analytics'],
+    content: `Employee Attrition Prediction - HR Analytics & Attrition Classification | Python, Pandas, scikit-learn:
+
+    WRITE-UP: https://employee-attrition-prediction.hashnode.dev/predict-employee-attrition-using-python-and-logistic-regression
+
+    An exploratory data analysis and baseline classification project identifying the factors driving employee attrition.
+
+    KEY DETAILS:
+    - Analyzed attrition patterns across department, gender, education field, and job role
+    - Trained a Logistic Regression model after addressing class imbalance with random oversampling
+    - Achieved a 66.5% F1-score
+    - Full write-up published on Hashnode`
   },
   {
     id: 'all_projects',
     keywords: ['projects', 'built', 'created', 'developed', 'portfolio', 'work', 'show', 'showcase', 'list'],
     content: `## FULLSTACK PROJECTS
 
-### 1. Recipia - AI-Powered Recipe App
-**Category:** Fullstack | AI Recipe Discovery  
-**Live:** [View Project](https://recipe-app-kappa-cyan.vercel.app/)  
-**Description:** Built an AI-powered chatbot with multimodal input (voice/image) for interactive recipe discovery and verified cooking reviews. Integrated Google Calendar API for real-time meal planning and scheduling. Developed a full-stack AI recipe platform with RBAC, personalized dashboards, and collaborative features.  
-**Tech Stack:** Next.js, MongoDB, TypeScript, LangChain
+### 1. FarmBuddy - Multimodal AI Agricultural Advisor
+**Category:** Fullstack | Multimodal AI
+**Live:** [View Project](https://farmbuddy-orcin.vercel.app/)
+**Description:** Multimodal AI advisory system for Nigerian smallholder farmers. OpenAI reasoning + YarnGPT text-to-speech in Hausa, Igbo, Yoruba, and Nigerian English. Delivered as a PWA and Telegram bot for low-data areas. Scored 89.56/100 on the System Usability Scale with 80 participants.
+**Tech Stack:** Next.js, Django, OpenAI, YarnGPT
 
 ---
 
-### 2. OMO AI - Marketing Intelligence
-**Category:** Fullstack | AI Marketing Platform  
-**Live:** [View Project](https://omo-ai-web-xi.vercel.app/)  
-**Description:** Co-developed an intensive AI-powered chatbot platform for businesses to track and manage ad performance and engagement in real time. Built a comprehensive authentication and onboarding system with secure sessions, OAuth via Google Cloud, and role-based access control. Implemented a dynamic settings module and an admin dashboard for robust user and data management.  
-**Tech Stack:** Next.js, TypeScript, Prisma, PostgreSQL, Docker, Google Cloud
+### 2. NEXUS - AI-Powered Task Management
+**Category:** Fullstack | AI Productivity
+**Live:** [View Project](https://nexus-frontend-2hy5.onrender.com)
+**Description:** Full-stack task manager with auto-scheduling by deadline/priority/effort, productivity analytics, Gemini-powered recommendations with heuristic fallback, JWT auth with refresh tokens, and email OTP password reset.
+**Tech Stack:** React, TypeScript, Express, Gemini API
 
 ---
 
-### 3. NSIA Insurance Customer Portal
-**Category:** Fullstack | Insurance Portal  
-**Live:** [View Project](https://dev.nsiainsurance.com.ng/)  
-**Description:** Architected and building a customer portal for seamless purchase and management of insurance policies, leveraging Node.js, Express.js, PostgreSQL, Redis, BullMQ for background policy document processing and scalability. Automated internal GIT portal processes with bulk-upload tools, reducing manual entry time by 75%.  
-**Tech Stack:** Next.js, TypeScript, Node.js, PostgreSQL, Redis
+### 3. VitalWatch - Health Monitoring Platform
+**Category:** Fullstack | Health Tech
+**Live:** [View Project](https://vitalwatch-5hgr.onrender.com)
+**Description:** Health-monitoring app for daily vitals with anomaly detection, escalating medication reminders, caregiver email alerts, and a tokenized read-only caregiver view. Timezone-aware scheduling.
+**Tech Stack:** React, TypeScript, Node.js
 
 ---
 
-### 4. Dev Link - Link Sharing App
-**Category:** Fullstack | Link Management  
-**Description:** Built public profiles with verified links, authentication, and shareable URLs to boost user visibility. Designed a link management system enabling users to verify and publicly share key resources with drag-and-drop functionality and real-time previews.  
-**Tech Stack:** Next.js, TypeScript, Firebase
+## AI/ML PROJECTS
+
+### 4. CardioXAI - Explainable Heart Disease Risk Screening
+**Category:** AI/ML | Explainable AI
+**Live:** [View Project](https://cardioxai-rovx.onrender.com)
+**Description:** Explainable AI for coronary heart disease risk from self-reported data. LogReg/RandomForest/XGBoost ensemble on CDC BRFSS (253,680 records), 0.815 AUC-ROC, SHAP + LIME explainability, confidence tiers, risk-factor knowledge graph.
+**Tech Stack:** Python, scikit-learn, XGBoost, SHAP, LIME
 
 ---
 
-### 5. Ace Stores - E-commerce Platform
-**Category:** Fullstack | Ecommerce Web App  
-**Live:** [View Project](https://ace-stores.vercel.app/) | [GitHub](https://github.com/owoadehabeeb04/ace-store)  
-**Description:** Implemented secure user authentication, cart/order management, and Paystack checkout, supporting real transactions. Converted Figma wireframes into a responsive, pixel-perfect user interface.  
-**Tech Stack:** React, TypeScript, Firebase
-
----
-
-## FRONTEND PROJECTS
-
-### 6. Solar Survey AI
-**Category:** Frontend | AI-Driven Drone Surveys  
-**Live:** [View Project](https://www.solarsurvey.ai/)  
-**Description:** Engineered an interactive 3D globe explorer using React, Three.js, TypeScript, enabling real-time visualization of solar projects across geographies. Launched a scalable PWA supporting offline mode for technicians, improving field usability by 40%. Integrated Google Maps API and WebSockets to deliver precise mapping and real-time upload feedback.  
-**Tech Stack:** React, TypeScript, Tailwind CSS
-
----
-
-### 7. CrewLink - Field Team Management
-**Category:** Frontend | Team Management Platform  
-**Live:** [View Project](https://www.crewlink.ai/)  
-**Description:** Developed a comprehensive field team management platform with real-time tracking, task assignment, and communication features. Built responsive interfaces for mobile and desktop to streamline field operations and improve team coordination.  
-**Tech Stack:** React, TypeScript, Tailwind CSS
-
----
-
-### 8. Tobi Owoade Portfolio
-**Category:** Frontend | Portfolio Website  
-**Live:** [View Project](https://www.tobiowoade.com/)  
-**Description:** Designed and developed a modern, responsive portfolio website showcasing creative work and professional experience. Implemented smooth animations, interactive elements, and a clean, editorial design aesthetic.`
+### 5. Employee Attrition Prediction
+**Category:** AI/ML | HR Analytics
+**Live:** [Read Write-up](https://employee-attrition-prediction.hashnode.dev/predict-employee-attrition-using-python-and-logistic-regression)
+**Description:** EDA + logistic regression attrition classifier with random oversampling, achieving 66.5% F1-score.
+**Tech Stack:** Python, Pandas, scikit-learn`
   },
-  {
-    id: 'recipia_details',
-    keywords: ['recipia', 'recipe', 'cooking', 'voice', 'image', 'calendar', 'meal', 'food', 'ai recipe'],
-    content: `Recipia - AI Recipe App (2025) | Next.js, MongoDB, Gemini API:
-    
-    LIVE: https://recipe-app-kappa-cyan.vercel.app/
-    
-    KEY FEATURES:
-    - AI chatbot with multimodal input (voice/image) for interactive recipe discovery
-    - Verified cooking reviews system
-    - Google Calendar API integration for real-time meal planning and scheduling
-    - Full-stack AI recipe platform with RBAC (Role-Based Access Control)
-    - Personalized dashboards
-    - Collaborative features for sharing recipes
-    
-    TECH STACK: Next.js, MongoDB, Gemini API, Google Calendar API, TypeScript, LangChain`
-  },
-  {
-    id: 'vyna_details',
-    keywords: ['vyna', 'music', 'playlist', 'spotify', 'gemini', 'ai', 'mood', 'redis', 'songs', 'weekly'],
-    content: `Vyna - AI Music Playlist App (2025) | Next.js, MongoDB, Node.js, Gemini API:
-    
-    **STATUS:** 🚧 In Development - Coming Soon!
-    
-    PLANNED FEATURES:
-    - AI chatbot generates personalized playlists based on user mood using Gemini API and Spotify API
-    - "New Music Friday" feature: curated weekly recommendations delivered via email
-    - Seamless Spotify playlist export
-    - Seeding engine to generate playlists from seed tracks for enhanced personalization and discovery
-    - Background processing with Redis and BullMQ for playlist generation and email scheduling
-    
-    TECH STACK: Next.js, MongoDB, Node.js, Gemini API, Spotify API, Redis, BullMQ`
-  },
-  {
-    id: 'solar_details',
-    keywords: ['solar', 'survey', 'three.js', '3d', 'globe', 'pwa', 'offline', 'maps', 'websocket', 'drone', 'visualization'],
-    content: `Solar Survey AI - AI-Driven Drone Surveys (Sept 2024 - Dec 2025):
-    
-    LIVE: https://www.solarsurvey.ai/
-    
-    ACHIEVEMENTS:
-    - Engineered interactive 3D globe explorer using React, Three.js, TypeScript
-    - Real-time visualization of solar projects across geographies
-    - Launched scalable PWA with offline mode for field technicians (40% usability improvement)
-    - Admin dashboard with bulk uploads (400+ images), automated image exports
-    - Granular user controls for content management
-    - Google Maps API integration for precise mapping
-    - WebSockets for real-time upload feedback
-    
-    TECH STACK: React, Three.js, TypeScript, PWA, Google Maps API, WebSockets, Tailwind CSS`
-  },
-  {
-    id: 'crewlink_details',
-    keywords: ['crewlink', 'crew', 'team', 'management', 'field', 'tracking'],
-    content: `CrewLink - Field Team Management Platform:
-    
-    LIVE: https://www.crewlink.ai/
-    
-    FEATURES:
-    - Comprehensive field team management platform
-    - Real-time tracking of field workers
-    - Task assignment and delegation
-    - Team communication features
-    - Responsive interfaces for mobile and desktop
-    - Streamlined field operations
-    - Improved team coordination
-    
-    TECH STACK: React, TypeScript, Tailwind CSS`
-  },
-  {
-    id: 'ace_stores_details',
-    keywords: ['ace', 'stores', 'e-commerce', 'shop', 'paystack', 'payment', 'cart', 'shopping'],
-    content: `Ace Stores - E-commerce Platform (2023):
-    
-    LIVE: https://ace-stores.vercel.app/
-    GITHUB: github.com/owoadehabeeb04/ace-store
-    
-    FEATURES:
-    - Secure user authentication system
-    - Cart and order management
-    - Paystack checkout integration supporting real transactions
-    - Converted Figma wireframes into pixel-perfect responsive UI
-    - Real-time inventory management
-    
-    TECH STACK: React, TypeScript, Firebase, Paystack API`
-  },
-  {
-    id: 'devlink_details',
-    keywords: ['link', 'sharing', 'profile', 'firebase', 'verified', 'devlink', 'dev link', 'url'],
-    content: `Dev Link - Link Sharing App (2024) | Next.js, Firebase:
-    
-    FEATURES:
-    - Public profiles with verified links
-    - Authentication system
-    - Shareable URLs to boost user visibility
-    - Link management system for verified resource sharing
-    - Drag-and-drop functionality
-    - Real-time link previews
-    
-    TECH STACK: Next.js, TypeScript, Firebase`
-  }
 ]
 
 // Keyword synonyms and related terms for better matching
@@ -286,15 +209,17 @@ const keywordSynonyms: Record<string, string[]> = {
   'project': ['projects', 'work', 'built', 'developed', 'created', 'portfolio'],
   'experience': ['work', 'job', 'career', 'employment', 'role', 'position'],
   'skills': ['tech', 'stack', 'technologies', 'tools', 'languages', 'frameworks'],
-  'frontend': ['front-end', 'ui', 'react', 'next.js', 'nextjs', 'interface'],
-  'backend': ['back-end', 'server', 'api', 'node', 'express', 'database'],
-  'ai': ['artificial intelligence', 'machine learning', 'ml', 'chatbot', 'langchain'],
-  'database': ['db', 'sql', 'postgresql', 'mongo', 'mongodb', 'redis'],
+  'ai': ['artificial intelligence', 'machine learning', 'ml', 'multimodal', 'openai', 'gemini', 'llm'],
+  'backend': ['back-end', 'server', 'api', 'node', 'express', 'django', 'database'],
+  'database': ['db', 'sql', 'postgresql'],
   'contact': ['email', 'phone', 'reach', 'connect', 'social'],
-  'education': ['school', 'university', 'student', 'cgpa', 'academic'],
-  'recipia': ['recipe', 'cooking', 'food', 'meal', 'ai recipe'],
-  'solar': ['photovoltaic', 'renewable', 'energy', '3d', 'three.js', 'globe'],
-  'ecommerce': ['e-commerce', 'shop', 'store', 'cart', 'payment', 'paystack'],
+  'education': ['school', 'university', 'student', 'academic', 'bowen'],
+  'farmbuddy': ['farm', 'farmer', 'farming', 'agriculture', 'agricultural', 'crops'],
+  'cardioxai': ['cardio', 'heart', 'disease', 'xai', 'explainable'],
+  'nexus': ['task', 'tasks', 'productivity', 'scheduling'],
+  'vitalwatch': ['vitals', 'medication', 'caregiver', 'monitoring'],
+  'attrition': ['churn', 'hr', 'employee'],
+  'community': ['leadership', 'gdg', 'volunteer', 'mentor', 'organizer'],
 }
 
 // Preprocess query: expand with synonyms and extract intent

@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
-import { fullstackProjects, frontendProjects } from '@/constants'
+import { fullstackProjects, aimlProjects } from '@/constants'
 
 interface ProjectCardProps {
   project: typeof fullstackProjects[0]
@@ -187,7 +187,7 @@ export default function Projects() {
   const { ref, isVisible } = useIntersectionObserver({ threshold: 0.1 })
 
   // Combine all projects and show first 4
-  const allProjects = [...fullstackProjects, ...frontendProjects]
+  const allProjects = [...fullstackProjects, ...aimlProjects]
   const displayedProjects = allProjects.slice(0, 4)
 
   return (

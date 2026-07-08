@@ -1,10 +1,10 @@
-# Habeeb Portfolio
+# Abdul-Salam Adebayo — AI Engineer Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, featuring an AI-powered chatbot assistant.
 
 ## ✨ Key Features
 
-- 🤖 **AI Chatbot Assistant** - "Ask Habeeb" powered by LLaMA & RAG technology
+- 🤖 **AI Chatbot Assistant** - "Ask Salam" powered by LLaMA & RAG technology
 - 🚀 Built with Next.js 14 and App Router
 - 💻 TypeScript for type safety
 - 🎨 Tailwind CSS with custom theming
@@ -28,12 +28,12 @@ Create a `.env.local` file in the root directory:
 
 ```bash
 # Required for AI Chatbot
-GROQ_API_KEY=your_groq_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-To get a GROQ API key:
-1. Visit [console.groq.com](https://console.groq.com)
-2. Sign up for a free account
+To get an OpenAI API key:
+1. Visit [platform.openai.com](https://platform.openai.com/api-keys)
+2. Sign up or log in
 3. Generate an API key
 
 ### Installation
@@ -71,7 +71,7 @@ The AI chatbot will be available at the homepage, and the full portfolio at `/po
 │   ├── api/
 │   │   └── chat/
 │   │       └── route.ts         # AI chatbot API endpoint
-│   ├── ask-habeeb/
+│   ├── ask-salam/
 │   │   └── page.tsx            # AI chatbot page
 │   ├── portfolio/
 │   │   └── page.tsx            # Main portfolio page
@@ -209,7 +209,7 @@ lighthouse http://localhost:3000 --view
 1. Push your code to GitHub
 2. Import project to Vercel
 3. Add environment variables:
-   - `GROQ_API_KEY`
+   - `OPENAI_API_KEY`
 4. Deploy!
 
 ### Other Platforms
@@ -222,8 +222,8 @@ Compatible with any Next.js hosting:
 
 ## 🤖 AI Chatbot Features
 
-The "Ask Habeeb" chatbot uses:
-- **LLaMA 3.3-70B** model via Groq
+The "Ask Salam" chatbot uses:
+- **GPT-4o mini** model via OpenAI
 - **RAG (Retrieval-Augmented Generation)** for accurate responses
 - **Rate limiting** to prevent abuse
 - **Streaming responses** for better UX
@@ -249,7 +249,7 @@ The "Ask Habeeb" chatbot uses:
 - TanStack Query (server state)
 
 **AI/Backend:**
-- Groq SDK
+- OpenAI SDK
 - LangChain
 - Google Generative AI
 - Custom RAG implementation
@@ -270,10 +270,10 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📧 Contact
 
-- **Email**: owoadehabeeb04@gmail.com
-- **LinkedIn**: [linkedin.com/in/owoade-habeeb](https://linkedin.com/in/owoade-habeeb)
-- **GitHub**: [github.com/owoadehabeeb04](https://github.com/owoadehabeeb04)
-- **Twitter**: [@Drealtemiteee_](https://twitter.com/Drealtemiteee_)
+- **Email**: abdulsalamadebayo0410@gmail.com
+- **LinkedIn**: [www.linkedin.com/in/abdul-salam-adebayo](https://www.linkedin.com/in/abdul-salam-adebayo)
+- **GitHub**: [github.com/Abdul-Salam15](https://github.com/Abdul-Salam15)
+- **Twitter**: [@salamtweets_](https://twitter.com/salamtweets_)
 
 ## ⭐ Show Your Support
 
@@ -286,10 +286,10 @@ Give a ⭐️ if you like this project!
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs)
-- [Groq AI Documentation](https://console.groq.com/docs)
+- [OpenAI API Documentation](https://platform.openai.com/docs)
 - [SEO Best Practices](https://developers.google.com/search/docs)
 
 ---
 
-**Built with ❤️ by Habeeb Owoade**
+**Built with ❤️ by Abdul-Salam Adebayo**
 

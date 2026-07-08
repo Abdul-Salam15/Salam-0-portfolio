@@ -3,6 +3,8 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Experience from '@/components/Experience'
+import Leadership from '@/components/Leadership'
+import Education from '@/components/Education'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
@@ -11,7 +13,7 @@ import { generateMetadata as generateSEOMetadata, profilePageSchema } from '@/li
 
 export const metadata: Metadata = generateSEOMetadata({
   title: 'Portfolio',
-  description: 'Explore my portfolio of full-stack projects including AI-powered applications, e-commerce platforms, and enterprise solutions built with React, Next.js, TypeScript, Node.js, and modern web technologies.',
+  description: 'Explore my portfolio of AI and full-stack projects — multimodal AI systems, explainable ML, and production web apps built with Python, Next.js, Django, React, and TypeScript.',
   url: '/portfolio',
   keywords: [
     'portfolio',
@@ -39,6 +41,8 @@ export default function PortfolioPage() {
         <Projects />
         <About />
         <Experience />
+        <Leadership />
+        <Education />
         <Skills />
         <Contact />
         <Footer />

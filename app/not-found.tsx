@@ -4,7 +4,7 @@ import { generateMetadata as generateSEOMetadata } from '@/lib/seo'
 
 export const metadata: Metadata = generateSEOMetadata({
   title: '404 - Page Not Found',
-  description: 'The page you are looking for could not be found. Return to the homepage to explore Habeeb Owoade\'s portfolio.',
+  description: 'The page you are looking for could not be found. Return to the homepage to explore Abdul-Salam Adebayo\'s portfolio.',
   noIndex: true,
 })
 
@@ -32,7 +32,7 @@ export default function NotFound() {
             href="/"
             className="inline-block px-8 py-4 border-2 border-[var(--border)] text-[var(--text-primary)] rounded-lg font-medium hover:bg-[var(--bg-secondary)] transition-all duration-300 hover:scale-105"
           >
-            Ask Habeeb AI
+            Ask Salam AI
           </Link>
         </div>
       </div>

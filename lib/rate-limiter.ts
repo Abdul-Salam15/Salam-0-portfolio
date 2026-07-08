@@ -1,7 +1,7 @@
-// Simple in-memory rate limiter for Gemini API
+// Simple in-memory rate limiter for the chat API
 class RateLimiter {
   private requests: number[] = []
-  private readonly maxRequests = 12 // Leave buffer (15/min limit)
+  private readonly maxRequests = 12
   private readonly timeWindow = 60000 // 1 minute
 
   canMakeRequest(): boolean {
@@ -25,4 +25,4 @@ class RateLimiter {
   }
 }
 
-export const geminiRateLimiter = new RateLimiter()
+export const chatRateLimiter = new RateLimiter()

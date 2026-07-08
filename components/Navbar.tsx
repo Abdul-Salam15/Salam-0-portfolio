@@ -21,7 +21,7 @@ export default function Navbar({
   const [isScrolled, setIsScrolled] = useState(false)
   const [isNavVisible, setIsNavVisible] = useState(false)
   const pathname = usePathname()
-  const isAIPage = pathname === '/' || pathname === '/ask-habeeb'
+  const isAIPage = pathname === '/' || pathname === '/ask-salam'
   
   // Determine the base path for links
   const getNavLink = (section: string) => {
@@ -91,7 +91,7 @@ export default function Navbar({
           </a>
           <span className={`text-[var(--text-secondary)]/30 nav-item-fade`} style={{ animationDelay: '0.15s' }}>|</span>
           <a
-            href="https://www.dropbox.com/scl/fi/8pwzxju1g5a7z6k6iskgd/OWOADE_HABEEB_RESUME-4.pdf?rlkey=kqagoji9fa7yafe4v0tj5l4oe&st=iptearno&dl=0"
+            href="/resume.md"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link px-2 md:px-3 py-1 text-xs md:text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-primary)]/20 hover:scale-105 transition-all duration-300 whitespace-nowrap rounded-lg nav-item-fade"
@@ -129,13 +129,13 @@ export default function Navbar({
           <Link
             href="/"
             className={`nav-link px-2 md:px-3 py-1 text-xs md:text-sm font-medium transition-all duration-300 whitespace-nowrap rounded-lg nav-item-fade ${
-              activeNav === 'ask-habeeb' 
+              activeNav === 'ask-salam' 
                 ? 'text-[var(--text-primary)] bg-[var(--bg-primary)]/30 scale-105' 
                 : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-primary)]/20 hover:scale-105'
             }`}
             style={{ animationDelay: '0.5s' }}
           >
-            Ask Habeeb AI
+            Ask Salam AI
           </Link>
           <span className={`text-[var(--text-secondary)]/30 mx-1 md:mx-2 nav-item-fade`} style={{ animationDelay: '0.55s' }}>|</span>
           <a
@@ -176,13 +176,13 @@ export default function Navbar({
             <a
               href="/"
               className={`nav-link px-2 py-1 text-xs font-medium transition-all duration-300 whitespace-nowrap rounded-lg flex-shrink-0 nav-item-fade ${
-                activeNav === 'ask-habeeb' 
+                activeNav === 'ask-salam' 
                   ? 'text-[var(--text-primary)] bg-[var(--bg-primary)]/30 scale-105' 
                   : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-primary)]/20 hover:scale-105'
               }`}
               style={{ animationDelay: '0.5s' }}
             >
-              Ask Habeeb AI
+              Ask Salam AI
             </a>
                           <span className={`text-[var(--text-secondary)]/30 flex-shrink-0 nav-item-fade`} style={{ animationDelay: '0.45s' }}>|</span>
 
@@ -200,7 +200,7 @@ export default function Navbar({
             </a>
             <span className={`text-[var(--text-secondary)]/30 flex-shrink-0 nav-item-fade`} style={{ animationDelay: '0.15s' }}>|</span>
             <a
-              href="https://www.dropbox.com/scl/fi/8pwzxju1g5a7z6k6iskgd/OWOADE_HABEEB_RESUME-4.pdf?rlkey=kqagoji9fa7yafe4v0tj5l4oe&st=iptearno&dl=0"
+              href="/resume.md"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link px-2 py-1 text-xs font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-primary)]/20 hover:scale-105 transition-all duration-300 whitespace-nowrap rounded-lg flex-shrink-0 nav-item-fade"

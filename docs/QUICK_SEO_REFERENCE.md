@@ -6,7 +6,7 @@ Before deploying, update these in `lib/seo.ts`:
 
 ```typescript
 export const siteConfig = {
-  url: 'https://habeeb-dev-portfolio.vercel.app', // ← YOUR CURRENT DOMAIN
+  url: 'https://salam-0-portfolio.vercel.app', // ← YOUR CURRENT DOMAIN
   // ... rest stays the same
 }
 ```
@@ -78,7 +78,7 @@ Copy these URLs and test:
 - `app/portfolio/page.tsx` - Full rewrite
 - `app/projects/page.tsx` - Full rewrite
 - `app/projects/metadata.ts` - SEO metadata
-- `app/ask-habeeb/metadata.ts` - SEO metadata
+- `app/ask-salam/metadata.ts` - SEO metadata
 - `public/manifest.json` - PWA support
 - `public/browserconfig.xml` - MS tiles
 - `docs/` folder - Documentation
@@ -156,7 +156,7 @@ Or search for:
 ## ✅ Pre-Deploy Checklist
 
 - [ ] Updated domain in `lib/seo.ts`
-- [ ] Added GROQ_API_KEY to env
+- [ ] Added OPENAI_API_KEY to env
 - [ ] Tested `npm run build` (no errors)
 - [ ] All images in `public/images/`
 - [ ] Reviewed metadata in all pages
